@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/renikoulen/fm-3-column-preview-card-component-main.git]
-- Live Site URL: [https://meek-biscochitos-2a3b30.netlify.app]
+- Solution URL: https://github.com/renikoulen/fm-3-column-preview-card-component-main.git
+- Live Site URL: https://meek-biscochitos-2a3b30.netlify.app
 
 ### Built with
 
@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [https://gwfh.mranftl.com/] - google Webfonts Helper - This helped me with making sure the way I use my fonts is GDPR conform.
-- [https://www.w3schools.com] - W3Schools Online Web Tutorials - This is an amazing source which helped me with most of my questions regarding CSS.
+- https://gwfh.mranftl.com/ - google Webfonts Helper - This helped me with making sure the way I use my fonts is GDPR conform.
+- https://www.w3schools.com - W3Schools Online Web Tutorials - This is an amazing source which helped me with most of my questions regarding CSS.
 
 ## Author
 
