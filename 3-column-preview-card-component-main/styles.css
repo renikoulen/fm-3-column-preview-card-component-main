@@ -1,0 +1,186 @@
+/* lexend-deca-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lexend-deca-v17-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/lexend-deca-v17-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/lexend-deca-v17-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/lexend-deca-v17-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/lexend-deca-v17-latin-regular.svg#LexendDeca") format("svg"); /* Legacy iOS */
+}
+
+/* big-shoulders-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/big-shoulders-display-v15-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/big-shoulders-display-v15-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/big-shoulders-display-v15-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/big-shoulders-display-v15-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../fonts/big-shoulders-display-v15-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/big-shoulders-display-v15-latin-regular.svg#BigShouldersDisplay")
+      format("svg"); /* Legacy iOS */
+}
+/* big-shoulders-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/big-shoulders-display-v15-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/big-shoulders-display-v15-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/big-shoulders-display-v15-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/big-shoulders-display-v15-latin-700.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/big-shoulders-display-v15-latin-700.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/big-shoulders-display-v15-latin-700.svg#BigShouldersDisplay")
+      format("svg"); /* Legacy iOS */
+}
+
+body {
+  max-width: 1440px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: Lexend Deca, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 95%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: hsl(0, 0%, 95%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  padding: 30px;
+}
+
+.sedans {
+  display: block;
+  max-width: 100%;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  display: block;
+  max-width: 100%;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  display: block;
+  max-width: 100%;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.h1 {
+  font-family: Big Shoulders Display, sans-serif;
+  margin: 30px;
+  max-width:100%;
+}
+
+p {
+  height: 150px;
+  padding: 30px;
+  line-height: 1.5;
+  max-width:100%;
+}
+
+button {
+  margin: 30px;
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: transparent;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.sedans-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+.sedans-btn:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-btn:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+
+main{
+	max-width:50%;
+	max-height: 50%;
+}
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
