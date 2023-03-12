@@ -183,10 +183,10 @@ footer {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 375px;
-  border-top-left-radius:none;
-  border-bottom-left-radius:none;
-  border-top-right-radius:none;
-  border-top-right-radius:none;
+  border-top-left-radius:0rem;
+  border-bottom-left-radius:0rem;
+  border-top-right-radius:0rem;
+  border-top-right-radius:0rem;
 }
 
 
