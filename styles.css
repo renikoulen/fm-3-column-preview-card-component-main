@@ -93,7 +93,6 @@ body {
   border-bottom-left-radius:none;
   border-top-right-radius:none;
   border-top-right-radius:none;
-  
 }
 
 img {
@@ -189,14 +188,3 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 23.4375rem) {
-  main {
-    max-width: 50dvh;
-    max-height: 50dvh;
-  }
-
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
